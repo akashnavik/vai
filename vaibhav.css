@@ -1,0 +1,299 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+
+    width: 100%;
+    height: 60px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+} 
+
+.new{
+
+    width: 100%;
+    height: 60px;
+   /* background-color: red; */
+   display: flex;
+   justify-content: space-between;
+        
+}
+.logo{
+    width: 15%;
+    height: 60px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+}
+.nav{
+    width: 25%;
+    height: 60px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+
+}
+.nav-links{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    /* color: white; */
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: segoe UI; 
+
+}
+.item{
+
+    cursor: pointer;
+}
+
+.banner{
+     width: 100%;
+     height: 600px;
+     /* background-color: gray; */
+     background-color: #fcec95;
+     overflow: hidden;
+     display: flex;
+
+
+}
+
+.banner-details{
+   height: 500px;
+   width: 90%; 
+   background-color: #fcec95;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.banner-text{
+    width:50%;
+    height: 400px;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-title{
+    font-size: 60px;
+    font-family: segoe UI;
+    text-transform: uppercase;
+    font-weight: 300;
+
+}
+.highlight{
+    width: 80%;
+       height: 200px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-family: segoe UI;
+       border: 10px solid #414d75;
+       font-size: 120px;
+       text-transform: uppercase;
+       font-weight: bold;
+       row-gap: 10px;
+       color: #414d75;
+}
+
+
+/* branding section start  */
+.branding{
+    width: 100%;
+    
+    /* height: 800px; */
+    background-color: #1c2033;
+   padding: 50px 10%;
+   display: flex;
+   column-gap: 3%;
+}
+.branding-1{
+    width: 70%;
+    height: 600px;
+      background-color: #372b9e;
+      background-image:url("q.webp");
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 100px 5%;
+   display: flex;
+   align-items: flex-end;
+   font-size: 40px;
+   font-weight: bold;
+   color: #c14545;
+   font-family: 'Courier New', Courier, monospace;
+   justify-content: center;
+   text-transform: uppercase;
+}
+
+.branding-2 {
+    width: 60%;
+    height: 600px;
+      background-color: gray;
+      background-image:url("mv.webp");
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 100px 5%;
+   display: flex;
+   align-items: flex-end;
+   font-size: 40px;
+   font-weight: bold;
+   font-family: 'Courier New', Courier, monospace;
+   color: #e9537d;
+   justify-content: center;
+   text-transform: uppercase;
+}
+.branding-3 {
+    width: 60%;
+    height: 600px;
+      background-color: #546a76;
+      display: flex;
+
+justify-content: center;
+align-items: center;
+padding: 0 5%;
+font-size: 40px;
+font-family: segoe UI;
+}
+
+.brand{
+    background-color: gray;
+}
+.branding-vm{
+    width: 100%;
+    /* height: 800px; */
+    background-color: #4c4547;
+   padding: 50px 10%;
+   display: flex;
+   column-gap: 3%;
+   box-sizing: border-box;
+   
+ 
+}
+.branding-s{
+    width: 70%;
+    height: 600px;
+      background-color: #372b9e;
+      background-image:url("k.webp");
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 100px 5%;
+   display: flex;
+  
+    
+}
+.branding-d{
+    width: 70%;
+    height: 600px;
+      /* background-color: #372b9e; */
+      background-image:url("kk.webp");
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 100px 5%;
+   display: flex;
+   
+    
+}
+.branding-f{
+    width: 70%;
+    height: 600px;
+      /* background-color: #372b9e; */
+      background-image:url("t.webp");
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 100px 5%;
+   display: flex;
+  
+}
+/* branding end  */
+
+/* produstc css start  */
+.products{
+
+height: 500px;
+    width: 100%;
+    background-color:#a8afb0;
+  
+    padding: 50px 10%;
+    display: flex;
+ 
+    column-gap: 5%;
+    overflow: hidden;
+
+}
+
+.product{
+    padding-bottom: 10px;
+    height: 400px;
+    width: 20%;
+    background-color:#1e1910;
+    overflow: hidden;
+
+    
+}
+.done{
+
+    height: 400px;
+    width: 100%;
+    background-color:white;
+
+
+}
+.shubham{
+    height: 300px;
+    width: 100%;
+}
+.type{
+    padding: 2px;
+    font-family: segoe UI;
+    display: flex;
+    flex-direction: column;
+   
+}
+.btn-1{
+
+    padding: 5px 7px;
+    
+    border: none;
+    text-transform: uppercase;
+    background-color:#bbc0ca;
+    border-radius: 5px;
+  
+
+}
+.btn-2{
+
+    padding: 5px 7px;
+    border: none;
+    text-transform: uppercase;
+    background-color: #f97125;
+    border-radius: 5px;
+
+}
+.product-1{
+
+    height: 500px;
+        width: 100%;
+        background-color:#935b57;
+      
+        padding: 50px 10%;
+        display: flex;
+     
+        column-gap: 5%;
+        overflow: hidden;
+    
+    }
+    
+ 
+
